@@ -1,3 +1,7 @@
+## 1.0.3
+
+- v1.0.2 was skipped and should not be used due to incorrect Podspec configuration.
+
 ## 1.0.2
 
 - v1.0.1 was skipped and should not be used due to incorrect Podspec configuration.
