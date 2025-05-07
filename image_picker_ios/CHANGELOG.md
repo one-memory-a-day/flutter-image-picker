@@ -1,3 +1,7 @@
+## 1.0.2
+
+- Version 1.0.1 was skipped and should not be used due to incorrect Podspec configuration.
+
 ## 1.0.1
 
 - Updated the Podspec to reflect the new package name and structure.
