@@ -2,7 +2,7 @@ name: flutter_image_picker_ios
 description: iOS implementation of the image_picker plugin.
 repository: https://github.com/one-memory-a-day/flutter-image-picker/tree/main/image_picker_ios
 
-version: 1.0.2
+version: 1.0.3
 
 environment:
   sdk: ^3.3.0
