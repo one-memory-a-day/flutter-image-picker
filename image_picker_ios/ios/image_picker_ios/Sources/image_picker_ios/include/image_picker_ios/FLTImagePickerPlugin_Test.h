@@ -4,7 +4,7 @@
 
 // This header is available in the Test module. Import via "@import image_picker_ios_ios.Test;"
 
-#import <image_picker_ios/FLTImagePickerPlugin.h>
+#import <flutter_image_picker_ios/FLTImagePickerPlugin.h>
 
 #import "messages.g.h"
 
