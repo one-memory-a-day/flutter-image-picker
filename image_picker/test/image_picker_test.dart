@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 import 'package:flutter/services.dart';
+import 'package:flutter_heic_image_picker/flutter_heic_image_picker.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:image_picker/image_picker.dart';
 import 'package:image_picker_platform_interface/image_picker_platform_interface.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';

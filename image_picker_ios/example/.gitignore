@@ -49,3 +49,15 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/AppFrameworkInfo.plist
+**/*.h
+**/*.m
+**/*.xcworkspace/
+**/*.xcodeproj/
+**/DerivedData/
+**/*.pbxproj

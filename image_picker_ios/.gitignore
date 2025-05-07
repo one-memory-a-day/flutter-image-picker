@@ -49,3 +49,9 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+example/ios/Pods/
+example/ios/.symlinks/
+example/ios/Flutter/Generated.xcconfig
+example/ios/Flutter/Flutter.podspec
+example/ios/Flutter/AppFrameworkInfo.plist

@@ -15,16 +15,11 @@ let package = Package(
         .library(name: "FlutterGeneratedPluginSwiftPackage", type: .static, targets: ["FlutterGeneratedPluginSwiftPackage"])
     ],
     dependencies: [
-        .package(name: "integration_test", path: "/Users/cyberprophet/development/flutter/packages/integration_test/ios/integration_test"),
-        .package(name: "video_player_avfoundation", path: "/Users/cyberprophet/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.7.1/darwin/video_player_avfoundation")
+        
     ],
     targets: [
         .target(
-            name: "FlutterGeneratedPluginSwiftPackage",
-            dependencies: [
-                .product(name: "integration-test", package: "integration_test"),
-                .product(name: "video-player-avfoundation", package: "video_player_avfoundation")
-            ]
+            name: "FlutterGeneratedPluginSwiftPackage"
         )
     ]
 )

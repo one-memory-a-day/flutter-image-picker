@@ -264,6 +264,21 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_heic_image_picker:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "1.0.0"
+  flutter_image_picker_ios:
+    dependency: transitive
+    description:
+      name: flutter_image_picker_ios
+      sha256: "49ec84323b85803b8f997ac540a3d3d01e12a7d881c170819a58de25bd2b0f5d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   flutter_plugin_android_lifecycle:
     dependency: "direct main"
     description:
@@ -343,13 +358,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.2"
-  image_picker:
-    dependency: "direct main"
-    description:
-      path: ".."
-      relative: true
-    source: path
-    version: "1.1.2"
   image_picker_android:
     dependency: transitive
     description:
@@ -366,13 +374,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.6"
-  image_picker_ios:
-    dependency: transitive
-    description:
-      path: "../../image_picker_ios"
-      relative: true
-    source: path
-    version: "0.8.12"
   image_picker_linux:
     dependency: transitive
     description:

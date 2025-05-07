@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 import 'package:flutter/services.dart';
-import 'package:image_picker/image_picker.dart';
+import 'package:flutter_heic_image_picker/flutter_heic_image_picker.dart';
 // #docregion CameraDelegate
 import 'package:image_picker_platform_interface/image_picker_platform_interface.dart';
 // #enddocregion CameraDelegate

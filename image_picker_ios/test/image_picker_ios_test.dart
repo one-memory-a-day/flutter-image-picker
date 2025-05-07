@@ -4,8 +4,8 @@
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:image_picker_ios/image_picker_ios.dart';
-import 'package:image_picker_ios/src/messages.g.dart';
+import 'package:flutter_image_picker_ios/flutter_image_picker_ios.dart';
+import 'package:flutter_image_picker_ios/src/messages.g.dart';
 import 'package:image_picker_platform_interface/image_picker_platform_interface.dart';
 
 import 'test_api.g.dart';
