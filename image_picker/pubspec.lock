@@ -247,10 +247,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_image_picker_ios
-      sha256: "97313b16d3dfb7d2597385ddbee6a3b882c01c7b3f1284b0311620004066d2c5"
+      sha256: "324a5287b896986f2019ae54a542c74fbf48f05b85014c4aa543eda19b4a1d64"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.2"
+    version: "1.0.4"
   flutter_plugin_android_lifecycle:
     dependency: transitive
     description:
