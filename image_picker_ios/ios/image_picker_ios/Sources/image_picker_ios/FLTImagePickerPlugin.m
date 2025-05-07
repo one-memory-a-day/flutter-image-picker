@@ -621,6 +621,11 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> *)info {
         if (!originalAsset) {
             
             NSLog(@"[HEIC] No PHAsset available, attempting manual HEIC encoding");
+            
+            
+            image = [self fixOrientation:image];
+            
+            
             NSString *heicPath = [self saveImageAsHEIC:image];
             if (heicPath != nil) {
                 [self sendCallResultWithSavedPathList:@[heicPath]];
@@ -673,6 +678,18 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> *)info {
 }
 
 #pragma mark -
+
+
+- (UIImage *)fixOrientation:(UIImage *)image {
+    if (image.imageOrientation == UIImageOrientationUp) return image;
+    
+    UIGraphicsBeginImageContextWithOptions(image.size, NO, image.scale);
+    [image drawInRect:(CGRect){0, 0, image.size}];
+    UIImage *normalizedImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return normalizedImage;
+}
 
 
 - (void)extractHEICFromAssetAndSave:(NSDictionary *)info
