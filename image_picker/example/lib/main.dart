@@ -11,6 +11,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:mime/mime.dart';
+import 'package:photo_manager/photo_manager.dart';
 import 'package:video_player/video_player.dart';
 
 void main() {
@@ -154,8 +155,18 @@ class _MyHomePageState extends State<MyHomePage> {
               maxHeight: maxHeight,
               imageQuality: quality,
             );
-            setState(() {
+            setState(() async {
               _setImageFileListFromFile(pickedFile);
+
+              if (pickedFile != null) {
+                final entity = await PhotoManager.editor.saveImageWithPath(
+                  pickedFile.path,
+                  title: 'IMG_${DateTime.now().millisecondsSinceEpoch}.HEIC',
+                );
+                final bytes = await entity.originBytes;
+
+                print(bytes?.length);
+              }
             });
           } catch (e) {
             setState(() {

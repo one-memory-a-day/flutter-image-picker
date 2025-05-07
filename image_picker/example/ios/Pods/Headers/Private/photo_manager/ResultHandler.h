@@ -1,0 +1,1 @@
+../../../../.symlinks/plugins/photo_manager/ios/Classes/ResultHandler.h

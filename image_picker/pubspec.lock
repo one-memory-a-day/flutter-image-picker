@@ -328,11 +328,10 @@ packages:
   image_picker_ios:
     dependency: "direct main"
     description:
-      name: image_picker_ios
-      sha256: "05da758e67bc7839e886b3959848aa6b44ff123ab4b28f67891008afe8ef9100"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.8.12+2"
+      path: "../image_picker_ios"
+      relative: true
+    source: path
+    version: "0.8.12"
   image_picker_linux:
     dependency: "direct main"
     description:
