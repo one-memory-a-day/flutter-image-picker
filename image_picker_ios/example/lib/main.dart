@@ -162,6 +162,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             );
             setState(() {
+              print(pickedFile?.path);
               _setImageFileListFromFile(pickedFile);
             });
           } catch (e) {
